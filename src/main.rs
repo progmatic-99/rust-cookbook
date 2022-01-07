@@ -8,4 +8,13 @@ fn main() {
     println!("The value of x is {}", x);
     x = 6;
     println!("The value of x is {}", x);
+
+    let a: [i32; 10] = [0; 10];
+    println!("The array is {:?}", a);
+
+    let mut array = [2];
+    println!("The array is {}", array[0]);
+
+    array[0] = 3;
+    println!("The updated array is {}", array[0]);
 }
